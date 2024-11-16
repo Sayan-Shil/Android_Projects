@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif-condensed"
+
+
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:id="@+id/grid"
+        >
+        <!-- Child Views -->
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 1"
+            android:onClick="input"
+            android:tint="@color/black"
+
+
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 2"
+            android:onClick="input"
+
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 3"
+            android:onClick="input"
+
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 4"
+            android:onClick="input"
+
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 5"
+            android:onClick="input"
+
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 6"
+            android:onClick="input"
+
+
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 7"
+            android:onClick="input"
+
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 1"
+            android:onClick="input"
+
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn9"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Button 1"
+            android:onClick="input"
+
+            />
+
+    </GridLayout>
+
+
+
+</LinearLayout>
